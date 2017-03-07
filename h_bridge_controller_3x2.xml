@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/h_bridge_controller_3x2/h_bridge_controller_3x2.sch</source>
-    <date>Wed 08 Feb 2017 01:52:27 PM EST</date>
-    <tool>Eeschema no-vcs-found-7602~57~ubuntu16.04.1</tool>
+    <date>Tue 07 Mar 2017 04:54:19 PM EST</date>
+    <tool>Eeschema no-vcs-found-45d1082~58~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>h_bridge_controller_3x2</title>
@@ -11,6 +11,19 @@
         <rev>1.0</rev>
         <date/>
         <source>h_bridge_controller_3x2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/h_bridge_0/" tstamps="/58BF1669/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>h_bridge.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -32,8 +45,411 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589B6745</tstamp>
     </comp>
+    <comp ref="P1">
+      <value>PWR_JACK_2.5x5.5</value>
+      <footprint>h_bridge_controller_3x2:DCJACK_2PIN_HIGHCURRENT</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">CP-063BH-ND</field>
+        <field name="Description">CONN PWR JACK DC 2.5X5.5 8A T/H</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="PWR_JACK_2.5x5.5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BF1C6A</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>diode_schottky_45V_10A</value>
+      <footprint>h_bridge_controller_3x2:CFP15</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">568-11697-1-ND</field>
+        <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_45V_10A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BF2018</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SPST_SLIDE_AS</value>
+      <footprint>h_bridge_controller_3x2:SPST_SLIDE_AS</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">360-2610-ND</field>
+        <field name="Description">SWITCH SLIDE SPST 0.4VA 28V</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="SPST_SLIDE_AS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BF32CA</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>LED_24V</value>
+      <footprint>h_bridge_controller_3x2:LED_555-3XXX</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="LED_24V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BF9304</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>L298</value>
+      <footprint>h_bridge_controller_3x2:POWERSO20</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">497-3624-1-ND</field>
+        <field name="Description">IC BRIDGE DRIVER PAR 20POWERSO</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="L298"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF1700</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>h_bridge_controller_3x2:SM1210</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">478-3586-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="0.1uF"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2319</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>h_bridge_controller_3x2:SM1210</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">478-3586-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="0.1uF"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2363</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>47uF</value>
+      <footprint>h_bridge_controller_3x2:SM2917_POL</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">399-3821-1-ND</field>
+        <field name="Description">CAP TANT 47UF 35V 10% 2917</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="47uF_2917_POL"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2555</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>diode_schottky_40V_1A</value>
+      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF274C</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>diode_schottky_40V_1A</value>
+      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF27A0</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>diode_schottky_40V_1A</value>
+      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF295D</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>diode_schottky_40V_1A</value>
+      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2966</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>diode_schottky_40V_1A</value>
+      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2A39</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>diode_schottky_40V_1A</value>
+      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2A42</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>diode_schottky_40V_1A</value>
+      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2A5D</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>diode_schottky_40V_1A</value>
+      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2A66</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0.5</value>
+      <footprint>h_bridge_controller_3x2:SM2010</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">CSRN2010FKR500CT-ND</field>
+        <field name="Description">RES SMD 0.5 OHM 1% 1W 2010</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="0.5_2010"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF2C80</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>0.5</value>
+      <footprint>h_bridge_controller_3x2:SM2010</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">CSRN2010FKR500CT-ND</field>
+        <field name="Description">RES SMD 0.5 OHM 1% 1W 2010</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="0.5_2010"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF3150</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>LED_24V</value>
+      <footprint>h_bridge_controller_3x2:LED_555-3XXX</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="LED_24V"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF3502</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>LED_24V</value>
+      <footprint>h_bridge_controller_3x2:LED_555-3XXX</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="LED_24V"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF36C5</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>LED_24V</value>
+      <footprint>h_bridge_controller_3x2:LED_555-3XXX</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="LED_24V"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF3761</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>LED_24V</value>
+      <footprint>h_bridge_controller_3x2:LED_555-3XXX</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="LED_24V"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF376D</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TERM_BLK_HDR_2POS_VERT_0.2IN</value>
+      <footprint>h_bridge_controller_3x2:TERM_BLK_HDR_2POS_VERT_0.2IN</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">277-1150-ND</field>
+        <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="TERM_BLK_HDR_2POS_VERT_0.2IN"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF3CCC</tstamp>
+    </comp>
+    <comp ref="T2">
+      <value>TERM_BLK_HDR_2POS_VERT_0.2IN</value>
+      <footprint>h_bridge_controller_3x2:TERM_BLK_HDR_2POS_VERT_0.2IN</footprint>
+      <fields>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">277-1150-ND</field>
+        <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
+      </fields>
+      <libsource lib="h_bridge_controller_3x2" part="TERM_BLK_HDR_2POS_VERT_0.2IN"/>
+      <sheetpath names="/h_bridge_0/" tstamps="/58BF1669/"/>
+      <tstamp>58BF4303</tstamp>
+    </comp>
   </components>
   <libparts>
+    <libpart lib="h_bridge_controller_3x2" part="0.1uF">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1uF</field>
+        <field name="Footprint">h_bridge_controller_3x2:SM1210</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">478-3586-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 50V 10% X7R 1210</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="0.5_2010">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0.5_2010</field>
+        <field name="Footprint">h_bridge_controller_3x2:SM2010</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">CSRN2010FKR500CT-ND</field>
+        <field name="Description">RES SMD 0.5 OHM 1% 1W 2010</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="47uF_2917_POL">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47uF_2917_POL</field>
+        <field name="Footprint">h_bridge_controller_3x2:SM2917_POL</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">399-3821-1-ND</field>
+        <field name="Description">CAP TANT 47UF 35V 10% 2917</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="L298">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L298</field>
+        <field name="Footprint">h_bridge_controller_3x2:POWERSO20</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">497-3624-1-ND</field>
+        <field name="Description">IC BRIDGE DRIVER PAR 20POWERSO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SENA" type="output"/>
+        <pin num="4" name="OUT1" type="output"/>
+        <pin num="5" name="OUT2" type="output"/>
+        <pin num="6" name="Vs" type="power_in"/>
+        <pin num="7" name="IN1" type="input"/>
+        <pin num="8" name="ENA" type="input"/>
+        <pin num="9" name="IN2" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="Vss" type="power_in"/>
+        <pin num="13" name="IN3" type="input"/>
+        <pin num="14" name="ENB" type="input"/>
+        <pin num="15" name="IN4" type="input"/>
+        <pin num="16" name="OUT3" type="output"/>
+        <pin num="17" name="OUT4" type="output"/>
+        <pin num="19" name="SENB" type="output"/>
+        <pin num="20" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="LED_24V">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">LED_24V</field>
+        <field name="Footprint">h_bridge_controller_3x2:LED_555-3XXX</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">350-1723-ND</field>
+        <field name="Description">LED 2MM 24V VERTICAL RED PC MNT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="h_bridge_controller_3x2" part="MODULAR_DEVICE_BASE_3X2_MALE">
       <fields>
         <field name="Reference">MDB</field>
@@ -79,6 +495,102 @@
         <pin num="VEE" name="VEE_(+4-5VDC)" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="PWR_JACK_2.5x5.5">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PWR_JACK_2.5x5.5</field>
+        <field name="Footprint">h_bridge_controller_3x2:DCJACK_2PIN_HIGHCURRENT</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">CP-063BH-ND</field>
+        <field name="Description">CONN PWR JACK DC 2.5X5.5 8A T/H</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="SPST_SLIDE_AS">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST_SLIDE_AS</field>
+        <field name="Footprint">h_bridge_controller_3x2:SPST_SLIDE_AS</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">360-2610-ND</field>
+        <field name="Description">SWITCH SLIDE SPST 0.4VA 28V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="TERM_BLK_HDR_2POS_VERT_0.2IN">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TERM_BLK_HDR_2POS_VERT_0.2IN</field>
+        <field name="Footprint">h_bridge_controller_3x2:TERM_BLK_HDR_2POS_VERT_0.2IN</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">277-1150-ND</field>
+        <field name="Description">TERM BLOCK HDR 2POS VERT 5.08MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="diode_schottky_40V_1A">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">diode_schottky_40V_1A</field>
+        <field name="Footprint">h_bridge_controller_3x2:DO-214AC(SMA)</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">SS14CT-ND</field>
+        <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="h_bridge_controller_3x2" part="diode_schottky_45V_10A">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">diode_schottky_45V_10A</field>
+        <field name="Footprint">h_bridge_controller_3x2:CFP15</field>
+        <field name="Vendor">digikey</field>
+        <field name="PartNumber">568-11697-1-ND</field>
+        <field name="Description">DIODE SCHOTTKY 45V 10A CFP15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="h_bridge_controller_3x2">
@@ -86,101 +598,177 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(MDB1-Pad5)">
-      <node ref="MDB1" pin="5"/>
-    </net>
-    <net code="2" name="Net-(MDB1-PadAGND)">
-      <node ref="MDB1" pin="AGND"/>
-    </net>
-    <net code="3" name="Net-(MDB1-PadAREF)">
-      <node ref="MDB1" pin="AREF"/>
-    </net>
-    <net code="4" name="Net-(MDB1-Pad28)">
-      <node ref="MDB1" pin="28"/>
-    </net>
-    <net code="5" name="Net-(MDB1-Pad12)">
-      <node ref="MDB1" pin="12"/>
-    </net>
-    <net code="6" name="Net-(MDB1-Pad11)">
-      <node ref="MDB1" pin="11"/>
-    </net>
-    <net code="7" name="Net-(MDB1-Pad10)">
-      <node ref="MDB1" pin="10"/>
-    </net>
-    <net code="8" name="Net-(MDB1-Pad9)">
-      <node ref="MDB1" pin="9"/>
-    </net>
-    <net code="9" name="Net-(MDB1-Pad29)">
-      <node ref="MDB1" pin="29"/>
-    </net>
-    <net code="10" name="Net-(MDB1-Pad30)">
-      <node ref="MDB1" pin="30"/>
-    </net>
-    <net code="11" name="Net-(MDB1-Pad6)">
-      <node ref="MDB1" pin="6"/>
-    </net>
-    <net code="12" name="Net-(MDB1-Pad3V3)">
-      <node ref="MDB1" pin="3V3"/>
-    </net>
-    <net code="13" name="Net-(MDB1-Pad4)">
-      <node ref="MDB1" pin="4"/>
-    </net>
-    <net code="14" name="Net-(MDB1-Pad3)">
-      <node ref="MDB1" pin="3"/>
-    </net>
-    <net code="15" name="Net-(MDB1-Pad2)">
-      <node ref="MDB1" pin="2"/>
-    </net>
-    <net code="16" name="Net-(MDB1-Pad25)">
-      <node ref="MDB1" pin="25"/>
-    </net>
-    <net code="17" name="Net-(MDB1-Pad24)">
-      <node ref="MDB1" pin="24"/>
-    </net>
-    <net code="18" name="GND">
+    <net code="1" name="GND">
+      <node ref="D7" pin="2"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="11"/>
+      <node ref="D9" pin="2"/>
       <node ref="MDB1" pin="GND"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="D3" pin="2"/>
     </net>
-    <net code="19" name="Net-(MDB1-Pad14)">
-      <node ref="MDB1" pin="14"/>
+    <net code="2" name="VAA">
+      <node ref="C1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="20" name="VEE">
-      <node ref="MDB1" pin="VEE"/>
+    <net code="3" name="VDD">
+      <node ref="MDB1" pin="VDD"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="21" name="Net-(MDB1-PadDAC)">
-      <node ref="MDB1" pin="DAC"/>
+    <net code="4" name="LED_GND">
+      <node ref="L1" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="L4" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="L3" pin="2"/>
+      <node ref="L2" pin="2"/>
     </net>
-    <net code="22" name="Net-(MDB1-Pad13)">
-      <node ref="MDB1" pin="13"/>
-    </net>
-    <net code="23" name="Net-(MDB1-Pad15)">
-      <node ref="MDB1" pin="15"/>
-    </net>
-    <net code="24" name="Net-(MDB1-Pad16)">
-      <node ref="MDB1" pin="16"/>
-    </net>
-    <net code="25" name="Net-(MDB1-Pad17)">
-      <node ref="MDB1" pin="17"/>
-    </net>
-    <net code="26" name="Net-(MDB1-Pad18)">
+    <net code="5" name="/DIR_A_0">
+      <node ref="U1" pin="7"/>
       <node ref="MDB1" pin="18"/>
     </net>
-    <net code="27" name="Net-(MDB1-Pad19)">
-      <node ref="MDB1" pin="19"/>
-    </net>
-    <net code="28" name="Net-(MDB1-Pad20)">
-      <node ref="MDB1" pin="20"/>
-    </net>
-    <net code="29" name="Net-(MDB1-Pad21)">
-      <node ref="MDB1" pin="21"/>
-    </net>
-    <net code="30" name="Net-(MDB1-Pad22)">
-      <node ref="MDB1" pin="22"/>
-    </net>
-    <net code="31" name="Net-(MDB1-Pad23)">
+    <net code="6" name="/ENABLE_1">
+      <node ref="U1" pin="14"/>
       <node ref="MDB1" pin="23"/>
     </net>
-    <net code="32" name="VDD">
-      <node ref="MDB1" pin="VDD"/>
+    <net code="7" name="/DIR_A_1">
+      <node ref="MDB1" pin="20"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="8" name="/DIR_B_1">
+      <node ref="U1" pin="15"/>
+      <node ref="MDB1" pin="21"/>
+    </net>
+    <net code="9" name="/ENABLE_0">
+      <node ref="U1" pin="8"/>
+      <node ref="MDB1" pin="22"/>
+    </net>
+    <net code="10" name="/DIR_B_0">
+      <node ref="MDB1" pin="19"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="11" name="Net-(MDB1-Pad2)">
+      <node ref="MDB1" pin="2"/>
+    </net>
+    <net code="12" name="/SENSE_0">
+      <node ref="MDB1" pin="14"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(MDB1-Pad3)">
+      <node ref="MDB1" pin="3"/>
+    </net>
+    <net code="14" name="/SENSE_1">
+      <node ref="MDB1" pin="15"/>
+      <node ref="U1" pin="19"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(MDB1-Pad17)">
+      <node ref="MDB1" pin="17"/>
+    </net>
+    <net code="16" name="Net-(MDB1-Pad28)">
+      <node ref="MDB1" pin="28"/>
+    </net>
+    <net code="17" name="Net-(MDB1-Pad29)">
+      <node ref="MDB1" pin="29"/>
+    </net>
+    <net code="18" name="Net-(MDB1-Pad3V3)">
+      <node ref="MDB1" pin="3V3"/>
+    </net>
+    <net code="19" name="Net-(MDB1-PadDAC)">
+      <node ref="MDB1" pin="DAC"/>
+    </net>
+    <net code="20" name="Net-(MDB1-Pad16)">
+      <node ref="MDB1" pin="16"/>
+    </net>
+    <net code="21" name="Net-(MDB1-PadAGND)">
+      <node ref="MDB1" pin="AGND"/>
+    </net>
+    <net code="22" name="Net-(MDB1-PadAREF)">
+      <node ref="MDB1" pin="AREF"/>
+    </net>
+    <net code="23" name="Net-(MDB1-Pad4)">
+      <node ref="MDB1" pin="4"/>
+    </net>
+    <net code="24" name="Net-(MDB1-Pad5)">
+      <node ref="MDB1" pin="5"/>
+    </net>
+    <net code="25" name="Net-(MDB1-Pad6)">
+      <node ref="MDB1" pin="6"/>
+    </net>
+    <net code="26" name="Net-(MDB1-Pad9)">
+      <node ref="MDB1" pin="9"/>
+    </net>
+    <net code="27" name="Net-(MDB1-Pad10)">
+      <node ref="MDB1" pin="10"/>
+    </net>
+    <net code="28" name="Net-(MDB1-Pad30)">
+      <node ref="MDB1" pin="30"/>
+    </net>
+    <net code="29" name="Net-(MDB1-Pad11)">
+      <node ref="MDB1" pin="11"/>
+    </net>
+    <net code="30" name="Net-(MDB1-Pad12)">
+      <node ref="MDB1" pin="12"/>
+    </net>
+    <net code="31" name="Net-(MDB1-Pad13)">
+      <node ref="MDB1" pin="13"/>
+    </net>
+    <net code="32" name="Net-(MDB1-Pad24)">
+      <node ref="MDB1" pin="24"/>
+    </net>
+    <net code="33" name="Net-(MDB1-Pad25)">
+      <node ref="MDB1" pin="25"/>
+    </net>
+    <net code="34" name="VEE">
+      <node ref="U1" pin="12"/>
+      <node ref="MDB1" pin="VEE"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="35" name="/h_bridge_0/OUT_-_1">
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="T2" pin="2"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="36" name="/h_bridge_0/OUT_-_0">
+      <node ref="D4" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="L3" pin="1"/>
+      <node ref="T1" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="37" name="/h_bridge_0/OUT_+_1">
+      <node ref="L4" pin="1"/>
+      <node ref="T2" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="38" name="/h_bridge_0/OUT_+_0">
+      <node ref="T1" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="4"/>
     </net>
   </nets>
 </export>
