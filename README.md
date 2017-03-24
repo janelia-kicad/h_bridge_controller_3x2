@@ -1,4 +1,4 @@
-#h_bridge_controller_3x2
+# h_bridge_controller_3x2
 
 Authors:
 
