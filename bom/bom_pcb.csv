@@ -1,5 +1,5 @@
 Item,Reference(s),Value,Quantity,Description,PartNumber,Vendor
-1,C1 C2,0.1uF,2,CAP CER 0.1UF 50V 10% X7R 1210,478-3586-1-ND,digikey
+1,C1 C2,0.1uF,2,CAP CER 0.1UF 50V 10% X7R 1210,399-13229-1-ND,digikey
 2,C3,47uF,1,CAP TANT 47UF 35V 10% 2917,399-3821-1-ND,digikey
 3,D1,diode_schottky_45V_10A,1,DIODE SCHOTTKY 45V 10A CFP15,568-11697-1-ND,digikey
 4,D2 D3 D4 D5 D6 D7 D8 D9,diode_schottky_40V_1A,8,DIODE SCHOTTKY 40V 1A SMA,SS14CT-ND,digikey
