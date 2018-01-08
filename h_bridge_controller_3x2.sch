@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:h_bridge_controller_3x2
-LIBS:components
-LIBS:h_bridge_controller_3x2-cache
+EESchema Schematic File Version 4
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
@@ -46,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MODULAR_DEVICE_BASE_3X2_MALE MDB1
+L h_bridge_controller_3x2:MODULAR_DEVICE_BASE_3X2_MALE MDB1
 U 1 1 589B6745
 P 2650 1550
 F 0 "MDB1" H 2650 2547 60  0000 C CNN
@@ -61,7 +29,7 @@ F 7 "2" H 1900 1250 60  0001 C CNN "PartCount"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR2
+L power:VDD #PWR2
 U 1 1 589B67C3
 P 1350 750
 F 0 "#PWR2" H 100 -400 50  0001 C CNN
@@ -72,7 +40,7 @@ F 3 "" H 100 -250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG2
+L power:PWR_FLAG #FLG2
 U 1 1 589B67D9
 P 1100 750
 F 0 "#FLG2" H -150 -175 50  0001 C CNN
@@ -85,12 +53,12 @@ $EndComp
 Wire Wire Line
 	1100 750  1100 800 
 Wire Wire Line
-	1100 800  1400 800 
+	1100 800  1350 800 
 Wire Wire Line
 	1350 750  1350 800 
 Connection ~ 1350 800 
 $Comp
-L GND #PWR1
+L power:GND #PWR1
 U 1 1 589B67FE
 P 700 950
 F 0 "#PWR1" H -500 -650 50  0001 C CNN
@@ -101,7 +69,7 @@ F 3 "" H -500 -400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG1
+L power:PWR_FLAG #FLG1
 U 1 1 589B6835
 P 700 750
 F 0 "#FLG1" H -550 -175 50  0001 C CNN
@@ -112,7 +80,7 @@ F 3 "" H -550 -250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	700  750  700  950 
+	700  750  700  900 
 Wire Wire Line
 	700  900  1400 900 
 Connection ~ 700  900 
@@ -134,7 +102,7 @@ NoConn ~ 3900 1900
 NoConn ~ 3900 2200
 NoConn ~ 3900 2300
 $Comp
-L VEE #PWR9
+L power:VEE #PWR9
 U 1 1 589B69B5
 P 4450 800
 F 0 "#PWR9" H 200 -50 50  0001 C CNN
@@ -145,7 +113,7 @@ F 3 "" H 200 100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG4
+L power:PWR_FLAG #FLG4
 U 1 1 589B69CA
 P 4750 800
 F 0 "#FLG4" H 3500 -125 50  0001 C CNN
@@ -158,7 +126,7 @@ $EndComp
 Wire Wire Line
 	4750 800  4750 900 
 Wire Wire Line
-	4750 900  3900 900 
+	4750 900  4450 900 
 Wire Wire Line
 	4450 800  4450 900 
 Connection ~ 4450 900 
@@ -179,7 +147,7 @@ F10 "USER_ENABLE_0" O R 7100 2400 60
 F11 "USER_ENABLE_1" O R 7100 2550 60 
 $EndSheet
 $Comp
-L PWR_JACK_2.5x5.5 P1
+L h_bridge_controller_3x2:PWR_JACK_2.5x5.5 P1
 U 1 1 58BF1C6A
 P 2100 3600
 F 0 "P1" H 2100 3750 50  0000 C CNN
@@ -193,7 +161,7 @@ F 6 "CONN PWR JACK DC 2.5X5.5 8A T/H" H 0   -700 60  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VAA #PWR3
+L power:VAA #PWR3
 U 1 1 58BF1D4B
 P 1850 3500
 F 0 "#PWR3" H 0   -750 50  0001 C CNN
@@ -204,7 +172,7 @@ F 3 "" H 0   -600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR4
+L power:GND #PWR4
 U 1 1 58BF1D7D
 P 1850 3700
 F 0 "#PWR4" H 650 2100 50  0001 C CNN
@@ -217,13 +185,13 @@ $EndComp
 Wire Wire Line
 	1850 3500 1850 3550
 Wire Wire Line
-	1700 3550 1900 3550
+	1700 3550 1850 3550
 Wire Wire Line
 	1900 3650 1850 3650
 Wire Wire Line
 	1850 3650 1850 3700
 $Comp
-L PWR_FLAG #FLG3
+L power:PWR_FLAG #FLG3
 U 1 1 58BF1DDC
 P 1700 3400
 F 0 "#FLG3" H 450 2475 50  0001 C CNN
@@ -237,7 +205,7 @@ Wire Wire Line
 	1700 3550 1700 3400
 Connection ~ 1850 3550
 $Comp
-L diode_schottky_45V_10A D1
+L h_bridge_controller_3x2:diode_schottky_45V_10A D1
 U 1 1 58BF2018
 P 2550 3650
 F 0 "D1" H 2550 3537 50  0000 C CNN
@@ -251,7 +219,7 @@ F 6 "DIODE SCHOTTKY 45V 10A CFP15" H 300 980 60  0001 C CNN "Description"
 	-1   0    0    1   
 $EndComp
 $Comp
-L VAA #PWR5
+L power:VAA #PWR5
 U 1 1 58BF2075
 P 2400 3600
 F 0 "#PWR5" H 550 -650 50  0001 C CNN
@@ -262,7 +230,7 @@ F 3 "" H 550 -500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR6
+L power:VDD #PWR6
 U 1 1 58BF2098
 P 2700 3600
 F 0 "#PWR6" H 1450 2450 50  0001 C CNN
@@ -281,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3650 2700 3600
 $Comp
-L SPST_SLIDE_AS SW1
+L h_bridge_controller_3x2:SPST_SLIDE_AS SW1
 U 1 1 58BF32CA
 P 3150 3600
 F 0 "SW1" V 3112 3677 40  0000 L CNN
@@ -295,7 +263,7 @@ F 6 "SWITCH SLIDE SPST 0.4VA 28V" H -300 100 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR7
+L power:GND #PWR7
 U 1 1 58BF3376
 P 3300 3250
 F 0 "#PWR7" H 2100 1650 50  0001 C CNN
@@ -366,7 +334,7 @@ ENABLE_0
 Text Label 4000 1200 0    60   ~ 0
 ENABLE_1
 $Comp
-L LED_24V L1
+L h_bridge_controller_3x2:LED_24V L1
 U 1 1 58BF9304
 P 3950 3550
 F 0 "L1" V 3904 3628 50  0000 L CNN
@@ -380,7 +348,7 @@ F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 0   300 60  0001 C CNN "Description"
 	0    1    1    0   
 $EndComp
 $Comp
-L VAA #PWR8
+L power:VAA #PWR8
 U 1 1 58BF94A3
 P 3950 3300
 F 0 "#PWR8" H 2100 -950 50  0001 C CNN
@@ -432,4 +400,12 @@ Wire Wire Line
 	7100 2400 7200 2400
 Wire Wire Line
 	7100 2550 7200 2550
+Wire Wire Line
+	1350 800  1400 800 
+Wire Wire Line
+	700  900  700  950 
+Wire Wire Line
+	4450 900  3900 900 
+Wire Wire Line
+	1850 3550 1900 3550
 $EndSCHEMATC
