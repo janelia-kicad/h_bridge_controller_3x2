@@ -119,7 +119,7 @@
       (tstamp 58BF2555))
     (comp (ref D2)
       (value diode_schottky_40V_1A)
-      (footprint "h_bridge_controller_3x2:DO-214AC(SMA)")
+      (footprint "h_bridge_controller_3x2:DO-214AC_SMA")
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
@@ -129,7 +129,7 @@
       (tstamp 58BF274C))
     (comp (ref D3)
       (value diode_schottky_40V_1A)
-      (footprint "h_bridge_controller_3x2:DO-214AC(SMA)")
+      (footprint "h_bridge_controller_3x2:DO-214AC_SMA")
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
@@ -139,7 +139,7 @@
       (tstamp 58BF27A0))
     (comp (ref D4)
       (value diode_schottky_40V_1A)
-      (footprint "h_bridge_controller_3x2:DO-214AC(SMA)")
+      (footprint "h_bridge_controller_3x2:DO-214AC_SMA")
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
@@ -149,7 +149,7 @@
       (tstamp 58BF295D))
     (comp (ref D5)
       (value diode_schottky_40V_1A)
-      (footprint "h_bridge_controller_3x2:DO-214AC(SMA)")
+      (footprint "h_bridge_controller_3x2:DO-214AC_SMA")
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
@@ -159,7 +159,7 @@
       (tstamp 58BF2966))
     (comp (ref D6)
       (value diode_schottky_40V_1A)
-      (footprint "h_bridge_controller_3x2:DO-214AC(SMA)")
+      (footprint "h_bridge_controller_3x2:DO-214AC_SMA")
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
@@ -169,7 +169,7 @@
       (tstamp 58BF2A39))
     (comp (ref D7)
       (value diode_schottky_40V_1A)
-      (footprint "h_bridge_controller_3x2:DO-214AC(SMA)")
+      (footprint "h_bridge_controller_3x2:DO-214AC_SMA")
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
@@ -179,7 +179,7 @@
       (tstamp 58BF2A42))
     (comp (ref D8)
       (value diode_schottky_40V_1A)
-      (footprint "h_bridge_controller_3x2:DO-214AC(SMA)")
+      (footprint "h_bridge_controller_3x2:DO-214AC_SMA")
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
@@ -189,7 +189,7 @@
       (tstamp 58BF2A5D))
     (comp (ref D9)
       (value diode_schottky_40V_1A)
-      (footprint "h_bridge_controller_3x2:DO-214AC(SMA)")
+      (footprint "h_bridge_controller_3x2:DO-214AC_SMA")
       (fields
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
@@ -489,7 +489,7 @@
       (fields
         (field (name Reference) D)
         (field (name Value) diode_schottky_40V_1A)
-        (field (name Footprint) "h_bridge_controller_3x2:DO-214AC(SMA)")
+        (field (name Footprint) "h_bridge_controller_3x2:DO-214AC_SMA")
         (field (name Vendor) digikey)
         (field (name PartNumber) SS14CT-ND)
         (field (name Description) "DIODE SCHOTTKY 40V 1A SMA"))

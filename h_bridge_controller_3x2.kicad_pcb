@@ -379,7 +379,7 @@
       (net 1 VAA) (solder_mask_margin 0.1) (clearance 0.1))
   )
 
-  (module "h_bridge_controller_3x2:DO-214AC(SMA)" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9C77)
+  (module "h_bridge_controller_3x2:DO-214AC_SMA" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9C77)
     (at 102.87 78.105 270)
     (path /58BF1669/58BF274C)
     (fp_text reference D2 (at 0 -2.54 270) (layer B.SilkS)
@@ -399,7 +399,7 @@
       (net 1 VAA))
   )
 
-  (module "h_bridge_controller_3x2:DO-214AC(SMA)" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9C82)
+  (module "h_bridge_controller_3x2:DO-214AC_SMA" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9C82)
     (at 102.87 88.265 270)
     (path /58BF1669/58BF27A0)
     (fp_text reference D3 (at 0 -2.54 270) (layer B.SilkS)
@@ -419,7 +419,7 @@
       (net 2 GND))
   )
 
-  (module "h_bridge_controller_3x2:DO-214AC(SMA)" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9C8D)
+  (module "h_bridge_controller_3x2:DO-214AC_SMA" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9C8D)
     (at 107.95 78.105 270)
     (path /58BF1669/58BF295D)
     (fp_text reference D4 (at 0 -2.54 270) (layer B.SilkS)
@@ -439,7 +439,7 @@
       (net 1 VAA))
   )
 
-  (module "h_bridge_controller_3x2:DO-214AC(SMA)" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9C98)
+  (module "h_bridge_controller_3x2:DO-214AC_SMA" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9C98)
     (at 107.95 88.265 270)
     (path /58BF1669/58BF2966)
     (fp_text reference D5 (at 0 -2.54 270) (layer B.SilkS)
@@ -459,7 +459,7 @@
       (net 2 GND))
   )
 
-  (module "h_bridge_controller_3x2:DO-214AC(SMA)" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9CA3)
+  (module "h_bridge_controller_3x2:DO-214AC_SMA" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9CA3)
     (at 127 78.105 270)
     (path /58BF1669/58BF2A39)
     (fp_text reference D6 (at 0 -2.54 270) (layer B.SilkS)
@@ -479,7 +479,7 @@
       (net 7 /h_bridge_0/OUT_+_1))
   )
 
-  (module "h_bridge_controller_3x2:DO-214AC(SMA)" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9CAE)
+  (module "h_bridge_controller_3x2:DO-214AC_SMA" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9CAE)
     (at 127 88.265 270)
     (path /58BF1669/58BF2A42)
     (fp_text reference D7 (at 0 -2.54 270) (layer B.SilkS)
@@ -499,7 +499,7 @@
       (net 7 /h_bridge_0/OUT_+_1))
   )
 
-  (module "h_bridge_controller_3x2:DO-214AC(SMA)" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9CB9)
+  (module "h_bridge_controller_3x2:DO-214AC_SMA" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9CB9)
     (at 132.08 78.105 270)
     (path /58BF1669/58BF2A5D)
     (fp_text reference D8 (at 0 -2.54 270) (layer B.SilkS)
@@ -519,7 +519,7 @@
       (net 8 /h_bridge_0/OUT_-_1))
   )
 
-  (module "h_bridge_controller_3x2:DO-214AC(SMA)" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9CC4)
+  (module "h_bridge_controller_3x2:DO-214AC_SMA" (layer B.Cu) (tedit 5706AF8F) (tstamp 58BF9CC4)
     (at 132.08 88.265 270)
     (path /58BF1669/58BF2A66)
     (fp_text reference D9 (at 0 -2.54 270) (layer B.SilkS)

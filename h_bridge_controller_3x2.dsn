@@ -48,13 +48,13 @@
     (component h_bridge_controller_3x2:CFP15
       (place D1 89535 -88900 back 180 (PN diode_schottky_45V_10A))
     )
-    (component "h_bridge_controller_3x2:DO-214AC(SMA)"
+    (component "h_bridge_controller_3x2:DO-214AC_SMA"
       (place D2 102870 -78105 back 90 (PN diode_schottky_40V_1A))
       (place D4 107950 -78105 back 90 (PN diode_schottky_40V_1A))
       (place D7 127000 -88265 back 90 (PN diode_schottky_40V_1A))
       (place D9 132080 -88265 back 90 (PN diode_schottky_40V_1A))
     )
-    (component "h_bridge_controller_3x2:DO-214AC(SMA)::1"
+    (component "h_bridge_controller_3x2:DO-214AC_SMA::1"
       (place D3 102870 -88265 back 90 (PN diode_schottky_40V_1A))
       (place D5 107950 -88265 back 90 (PN diode_schottky_40V_1A))
       (place D6 127000 -78105 back 90 (PN diode_schottky_40V_1A))
@@ -206,7 +206,7 @@
       (pin Rect[T]Pad_1600x1440_um 2 -1065 2780)
       (pin Rect[T]Pad_1600x1440_um 2@1 1065 2780)
     )
-    (image "h_bridge_controller_3x2:DO-214AC(SMA)"
+    (image "h_bridge_controller_3x2:DO-214AC_SMA"
       (outline (path signal 228.6  -635 1500  -635 -1500))
       (outline (path signal 228.6  -2500 -1500  -2500 1500))
       (outline (path signal 228.6  2500 -1500  -2500 -1500))
@@ -215,7 +215,7 @@
       (pin Rect[T]Pad_2650x1750_um 2 2150 0)
       (pin Rect[T]Pad_2650x1750_um 1 -2150 0)
     )
-    (image "h_bridge_controller_3x2:DO-214AC(SMA)::1"
+    (image "h_bridge_controller_3x2:DO-214AC_SMA::1"
       (outline (path signal 228.6  -2500 1500  2500 1500))
       (outline (path signal 228.6  2500 1500  2500 -1500))
       (outline (path signal 228.6  2500 -1500  -2500 -1500))

@@ -18,13 +18,13 @@
     (component h_bridge_controller_3x2:CFP15
       (place D1 895350 -889000 back 180)
     )
-    (component "h_bridge_controller_3x2:DO-214AC(SMA)"
+    (component "h_bridge_controller_3x2:DO-214AC_SMA"
       (place D2 1028700 -781050 back 90)
       (place D4 1079500 -781050 back 90)
       (place D7 1270000 -882650 back 90)
       (place D9 1320800 -882650 back 90)
     )
-    (component "h_bridge_controller_3x2:DO-214AC(SMA)::1"
+    (component "h_bridge_controller_3x2:DO-214AC_SMA::1"
       (place D3 1028700 -882650 back 90)
       (place D5 1079500 -882650 back 90)
       (place D6 1270000 -781050 back 90)
@@ -67,13 +67,13 @@
   )
   (was_is
   )
-  (routes 
+  (routes
     (resolution um 10)
     (parser
       (host_cad "KiCad's Pcbnew")
       (host_version "no-vcs-found-6223534~58~ubuntu16.04.1")
     )
-    (library_out 
+    (library_out
       (padstack "Via[0-1]_889:635_um"
         (shape
           (circle F.Cu 8890 0 0)
@@ -84,7 +84,7 @@
         (attach off)
       )
     )
-    (network_out 
+    (network_out
       (net VAA
         (wire
           (path B.Cu 12192

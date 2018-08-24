@@ -37,7 +37,7 @@ F 4 "digikey" H -750 1500 60  0001 C CNN "Vendor"
 F 5 "497-3624-1-ND" H -750 1600 60  0001 C CNN "PartNumber"
 F 6 "IC BRIDGE DRIVER PAR 20POWERSO" H -750 1700 60  0001 C CNN "Description"
 	1    3250 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2800 2000 2900 2000
@@ -60,7 +60,7 @@ F 1 "GND" H 3255 2777 50  0000 C CNN
 F 2 "" H -50 -250 50  0001 C CNN
 F 3 "" H -50 -250 50  0001 C CNN
 	1    3250 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3100 2850 3100 2900
@@ -106,7 +106,7 @@ F 1 "VAA" H 3667 1923 50  0000 C CNN
 F 2 "" H -100 150 50  0001 C CNN
 F 3 "" H -100 150 50  0001 C CNN
 	1    3650 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3600 1800 3650 1800
@@ -121,7 +121,7 @@ F 1 "VEE" H 3767 2023 50  0000 C CNN
 F 2 "" H -100 100 50  0001 C CNN
 F 3 "" H -100 100 50  0001 C CNN
 	1    3750 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3600 1900 3750 1900
@@ -139,7 +139,7 @@ F 4 "digikey" H -250 200 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H -150 300 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H -50 400 60  0001 C CNN "Description"
 	1    4800 1950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L h_bridge_controller_3x2:0.1uF C2
@@ -153,7 +153,7 @@ F 4 "digikey" H 150 200 60  0001 C CNN "Vendor"
 F 5 "399-13229-1-ND" H 250 300 60  0001 C CNN "PartNumber"
 F 6 "CAP CER 0.1UF 50V 10% X7R 1210" H 350 400 60  0001 C CNN "Description"
 	1    5200 1950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:VAA #PWR15
@@ -164,7 +164,7 @@ F 1 "VAA" H 4817 1873 50  0000 C CNN
 F 2 "" H 1050 100 50  0001 C CNN
 F 3 "" H 1050 100 50  0001 C CNN
 	1    4800 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR16
@@ -175,7 +175,7 @@ F 1 "GND" H 4805 2027 50  0000 C CNN
 F 2 "" H 1500 -1000 50  0001 C CNN
 F 3 "" H 1500 -1000 50  0001 C CNN
 	1    4800 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4800 1700 4800 1750
@@ -190,7 +190,7 @@ F 1 "VEE" H 5217 1873 50  0000 C CNN
 F 2 "" H 1350 -50 50  0001 C CNN
 F 3 "" H 1350 -50 50  0001 C CNN
 	1    5200 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR20
@@ -201,7 +201,7 @@ F 1 "GND" H 5205 2027 50  0000 C CNN
 F 2 "" H 1900 -1000 50  0001 C CNN
 F 3 "" H 1900 -1000 50  0001 C CNN
 	1    5200 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5200 1750 5200 1700
@@ -219,7 +219,7 @@ F 4 "digikey" H 110 170 60  0001 C CNN "Vendor"
 F 5 "399-3821-1-ND" H 210 270 60  0001 C CNN "PartNumber"
 F 6 "CAP TANT 47UF 35V 10% 2917" H 310 370 60  0001 C CNN "Description"
 	1    5550 1950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:VAA #PWR21
@@ -230,7 +230,7 @@ F 1 "VAA" H 5567 1873 50  0000 C CNN
 F 2 "" H 1800 100 50  0001 C CNN
 F 3 "" H 1800 100 50  0001 C CNN
 	1    5550 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR22
@@ -241,7 +241,7 @@ F 1 "GND" H 5555 2027 50  0000 C CNN
 F 2 "" H 2250 -1000 50  0001 C CNN
 F 3 "" H 2250 -1000 50  0001 C CNN
 	1    5550 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5550 1850 5550 1700
@@ -253,13 +253,13 @@ U 1 1 58BF274C
 P 6100 1800
 F 0 "D2" V 6100 1868 50  0000 L CNN
 F 1 "diode_schottky_40V_1A" H -180 -30 50  0001 L CNN
-F 2 "h_bridge_controller_3x2:DO-214AC(SMA)" H -50 30  60  0001 C CNN
+F 2 "h_bridge_controller_3x2:DO-214AC_SMA" H -50 30  60  0001 C CNN
 F 3 "" H 50  130 60  0001 C CNN
 F 4 "digikey" H 150 230 60  0001 C CNN "Vendor"
 F 5 "SS14CT-ND" H 250 330 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 40V 1A SMA" H 350 430 60  0001 C CNN "Description"
 	1    6100 1800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L h_bridge_controller_3x2:diode_schottky_40V_1A D3
@@ -267,13 +267,13 @@ U 1 1 58BF27A0
 P 6100 2100
 F 0 "D3" V 6100 2168 50  0000 L CNN
 F 1 "diode_schottky_40V_1A" H -180 270 50  0001 L CNN
-F 2 "h_bridge_controller_3x2:DO-214AC(SMA)" H -50 330 60  0001 C CNN
+F 2 "h_bridge_controller_3x2:DO-214AC_SMA" H -50 330 60  0001 C CNN
 F 3 "" H 50  430 60  0001 C CNN
 F 4 "digikey" H 150 530 60  0001 C CNN "Vendor"
 F 5 "SS14CT-ND" H 250 630 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 40V 1A SMA" H 350 730 60  0001 C CNN "Description"
 	1    6100 2100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:VAA #PWR23
@@ -284,7 +284,7 @@ F 1 "VAA" H 6117 1823 50  0000 C CNN
 F 2 "" H 2350 50  50  0001 C CNN
 F 3 "" H 2350 50  50  0001 C CNN
 	1    6100 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR24
@@ -295,7 +295,7 @@ F 1 "GND" H 6105 2077 50  0000 C CNN
 F 2 "" H 2800 -950 50  0001 C CNN
 F 3 "" H 2800 -950 50  0001 C CNN
 	1    6100 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6100 1650 6100 1700
@@ -314,13 +314,13 @@ U 1 1 58BF295D
 P 6650 1800
 F 0 "D4" V 6650 1868 50  0000 L CNN
 F 1 "diode_schottky_40V_1A" H 370 -30 50  0001 L CNN
-F 2 "h_bridge_controller_3x2:DO-214AC(SMA)" H 500 30  60  0001 C CNN
+F 2 "h_bridge_controller_3x2:DO-214AC_SMA" H 500 30  60  0001 C CNN
 F 3 "" H 600 130 60  0001 C CNN
 F 4 "digikey" H 700 230 60  0001 C CNN "Vendor"
 F 5 "SS14CT-ND" H 800 330 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 40V 1A SMA" H 900 430 60  0001 C CNN "Description"
 	1    6650 1800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L h_bridge_controller_3x2:diode_schottky_40V_1A D5
@@ -328,13 +328,13 @@ U 1 1 58BF2966
 P 6650 2100
 F 0 "D5" V 6650 2168 50  0000 L CNN
 F 1 "diode_schottky_40V_1A" H 370 270 50  0001 L CNN
-F 2 "h_bridge_controller_3x2:DO-214AC(SMA)" H 500 330 60  0001 C CNN
+F 2 "h_bridge_controller_3x2:DO-214AC_SMA" H 500 330 60  0001 C CNN
 F 3 "" H 600 430 60  0001 C CNN
 F 4 "digikey" H 700 530 60  0001 C CNN "Vendor"
 F 5 "SS14CT-ND" H 800 630 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 40V 1A SMA" H 900 730 60  0001 C CNN "Description"
 	1    6650 2100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:VAA #PWR25
@@ -345,7 +345,7 @@ F 1 "VAA" H 6667 1823 50  0000 C CNN
 F 2 "" H 2900 50  50  0001 C CNN
 F 3 "" H 2900 50  50  0001 C CNN
 	1    6650 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR26
@@ -356,7 +356,7 @@ F 1 "GND" H 6655 2077 50  0000 C CNN
 F 2 "" H 3350 -950 50  0001 C CNN
 F 3 "" H 3350 -950 50  0001 C CNN
 	1    6650 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6650 1650 6650 1700
@@ -375,13 +375,13 @@ U 1 1 58BF2A39
 P 7200 1800
 F 0 "D6" V 7200 1868 50  0000 L CNN
 F 1 "diode_schottky_40V_1A" H 920 -30 50  0001 L CNN
-F 2 "h_bridge_controller_3x2:DO-214AC(SMA)" H 1050 30  60  0001 C CNN
+F 2 "h_bridge_controller_3x2:DO-214AC_SMA" H 1050 30  60  0001 C CNN
 F 3 "" H 1150 130 60  0001 C CNN
 F 4 "digikey" H 1250 230 60  0001 C CNN "Vendor"
 F 5 "SS14CT-ND" H 1350 330 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 40V 1A SMA" H 1450 430 60  0001 C CNN "Description"
 	1    7200 1800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L h_bridge_controller_3x2:diode_schottky_40V_1A D7
@@ -389,13 +389,13 @@ U 1 1 58BF2A42
 P 7200 2100
 F 0 "D7" V 7200 2168 50  0000 L CNN
 F 1 "diode_schottky_40V_1A" H 920 270 50  0001 L CNN
-F 2 "h_bridge_controller_3x2:DO-214AC(SMA)" H 1050 330 60  0001 C CNN
+F 2 "h_bridge_controller_3x2:DO-214AC_SMA" H 1050 330 60  0001 C CNN
 F 3 "" H 1150 430 60  0001 C CNN
 F 4 "digikey" H 1250 530 60  0001 C CNN "Vendor"
 F 5 "SS14CT-ND" H 1350 630 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 40V 1A SMA" H 1450 730 60  0001 C CNN "Description"
 	1    7200 2100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:VAA #PWR27
@@ -406,7 +406,7 @@ F 1 "VAA" H 7217 1823 50  0000 C CNN
 F 2 "" H 3450 50  50  0001 C CNN
 F 3 "" H 3450 50  50  0001 C CNN
 	1    7200 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR28
@@ -417,7 +417,7 @@ F 1 "GND" H 7205 2077 50  0000 C CNN
 F 2 "" H 3900 -950 50  0001 C CNN
 F 3 "" H 3900 -950 50  0001 C CNN
 	1    7200 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7200 1650 7200 1700
@@ -436,13 +436,13 @@ U 1 1 58BF2A5D
 P 7750 1800
 F 0 "D8" V 7750 1868 50  0000 L CNN
 F 1 "diode_schottky_40V_1A" H 1470 -30 50  0001 L CNN
-F 2 "h_bridge_controller_3x2:DO-214AC(SMA)" H 1600 30  60  0001 C CNN
+F 2 "h_bridge_controller_3x2:DO-214AC_SMA" H 1600 30  60  0001 C CNN
 F 3 "" H 1700 130 60  0001 C CNN
 F 4 "digikey" H 1800 230 60  0001 C CNN "Vendor"
 F 5 "SS14CT-ND" H 1900 330 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 40V 1A SMA" H 2000 430 60  0001 C CNN "Description"
 	1    7750 1800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L h_bridge_controller_3x2:diode_schottky_40V_1A D9
@@ -450,13 +450,13 @@ U 1 1 58BF2A66
 P 7750 2100
 F 0 "D9" V 7750 2168 50  0000 L CNN
 F 1 "diode_schottky_40V_1A" H 1470 270 50  0001 L CNN
-F 2 "h_bridge_controller_3x2:DO-214AC(SMA)" H 1600 330 60  0001 C CNN
+F 2 "h_bridge_controller_3x2:DO-214AC_SMA" H 1600 330 60  0001 C CNN
 F 3 "" H 1700 430 60  0001 C CNN
 F 4 "digikey" H 1800 530 60  0001 C CNN "Vendor"
 F 5 "SS14CT-ND" H 1900 630 60  0001 C CNN "PartNumber"
 F 6 "DIODE SCHOTTKY 40V 1A SMA" H 2000 730 60  0001 C CNN "Description"
 	1    7750 2100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:VAA #PWR29
@@ -467,7 +467,7 @@ F 1 "VAA" H 7767 1823 50  0000 C CNN
 F 2 "" H 4000 50  50  0001 C CNN
 F 3 "" H 4000 50  50  0001 C CNN
 	1    7750 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR30
@@ -478,7 +478,7 @@ F 1 "GND" H 7755 2077 50  0000 C CNN
 F 2 "" H 4450 -950 50  0001 C CNN
 F 3 "" H 4450 -950 50  0001 C CNN
 	1    7750 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7750 1650 7750 1700
@@ -503,7 +503,7 @@ F 4 "digikey" V 130 400 60  0001 C CNN "Vendor"
 F 5 "CSRN2010FKR500CT-ND" V 230 500 60  0001 C CNN "PartNumber"
 F 6 "RES SMD 0.5 OHM 1% 1W 2010" V 330 600 60  0001 C CNN "Description"
 	1    4550 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR14
@@ -514,7 +514,7 @@ F 1 "GND" H 4555 3377 50  0000 C CNN
 F 2 "" H 1250 350 50  0001 C CNN
 F 3 "" H 1250 350 50  0001 C CNN
 	1    4550 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4550 3500 4550 3550
@@ -534,7 +534,7 @@ F 4 "digikey" V 680 400 60  0001 C CNN "Vendor"
 F 5 "CSRN2010FKR500CT-ND" V 780 500 60  0001 C CNN "PartNumber"
 F 6 "RES SMD 0.5 OHM 1% 1W 2010" V 880 600 60  0001 C CNN "Description"
 	1    5100 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR18
@@ -545,7 +545,7 @@ F 1 "GND" H 5105 3377 50  0000 C CNN
 F 2 "" H 1800 350 50  0001 C CNN
 F 3 "" H 1800 350 50  0001 C CNN
 	1    5100 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5100 3500 5100 3550
@@ -565,7 +565,7 @@ F 4 "digikey" H -150 100 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H -50 200 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 50  300 60  0001 C CNN "Description"
 	1    6100 3150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6100 2950 6100 2900
@@ -585,7 +585,7 @@ F 4 "digikey" H 400 100 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 500 200 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 600 300 60  0001 C CNN "Description"
 	1    6650 3150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	6650 2950 6650 2900
@@ -605,7 +605,7 @@ F 4 "digikey" H 950 100 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 1050 200 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 1150 300 60  0001 C CNN "Description"
 	1    7200 3150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	7200 2950 7200 2900
@@ -625,7 +625,7 @@ F 4 "digikey" H 1500 100 60  0001 C CNN "Vendor"
 F 5 "350-1723-ND" H 1600 200 60  0001 C CNN "PartNumber"
 F 6 "LED 2MM 24V VERTICAL RED PC MNT" H 1700 300 60  0001 C CNN "Description"
 	1    7750 3150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	7750 2950 7750 2900
@@ -647,7 +647,7 @@ F 4 "digikey" H 400 350 60  0001 C CNN "Vendor"
 F 5 "277-1150-ND" H 500 450 60  0001 C CNN "PartNumber"
 F 6 "TERM BLOCK HDR 2POS VERT 5.08MM" H 600 550 60  0001 C CNN "Description"
 	1    9100 1950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8900 1900 8800 1900
@@ -669,7 +669,7 @@ F 4 "digikey" H 400 1650 60  0001 C CNN "Vendor"
 F 5 "277-1150-ND" H 500 1750 60  0001 C CNN "PartNumber"
 F 6 "TERM BLOCK HDR 2POS VERT 5.08MM" H 600 1850 60  0001 C CNN "Description"
 	1    9100 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8900 3200 8800 3200
@@ -716,7 +716,7 @@ F 4 "digikey" H -250 50  60  0001 C CNN "Vendor"
 F 5 "360-2610-ND" H -150 150 60  0001 C CNN "PartNumber"
 F 6 "SWITCH SLIDE SPST 0.4VA 28V" H -50 250 60  0001 C CNN "Description"
 	1    3800 4600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text HLabel 3850 4250 2    60   Output ~ 0
 USER_ENABLE_0
@@ -733,7 +733,7 @@ F 1 "GND" H 3805 4727 50  0000 C CNN
 F 2 "" H 500 1700 50  0001 C CNN
 F 3 "" H 500 1700 50  0001 C CNN
 	1    3800 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3800 4850 3800 4900
@@ -749,7 +749,7 @@ F 4 "digikey" H 750 50  60  0001 C CNN "Vendor"
 F 5 "360-2610-ND" H 850 150 60  0001 C CNN "PartNumber"
 F 6 "SWITCH SLIDE SPST 0.4VA 28V" H 950 250 60  0001 C CNN "Description"
 	1    4800 4600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text HLabel 4850 4250 2    60   Output ~ 0
 USER_ENABLE_1
@@ -766,7 +766,7 @@ F 1 "GND" H 4805 4727 50  0000 C CNN
 F 2 "" H 1500 1700 50  0001 C CNN
 F 3 "" H 1500 1700 50  0001 C CNN
 	1    4800 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4800 4850 4800 4900

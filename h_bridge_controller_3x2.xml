@@ -143,7 +143,7 @@
     </comp>
     <comp ref="D2">
       <value>diode_schottky_40V_1A</value>
-      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <footprint>h_bridge_controller_3x2:DO-214AC_SMA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
@@ -155,7 +155,7 @@
     </comp>
     <comp ref="D3">
       <value>diode_schottky_40V_1A</value>
-      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <footprint>h_bridge_controller_3x2:DO-214AC_SMA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
@@ -167,7 +167,7 @@
     </comp>
     <comp ref="D4">
       <value>diode_schottky_40V_1A</value>
-      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <footprint>h_bridge_controller_3x2:DO-214AC_SMA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
@@ -179,7 +179,7 @@
     </comp>
     <comp ref="D5">
       <value>diode_schottky_40V_1A</value>
-      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <footprint>h_bridge_controller_3x2:DO-214AC_SMA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
@@ -191,7 +191,7 @@
     </comp>
     <comp ref="D6">
       <value>diode_schottky_40V_1A</value>
-      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <footprint>h_bridge_controller_3x2:DO-214AC_SMA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
@@ -203,7 +203,7 @@
     </comp>
     <comp ref="D7">
       <value>diode_schottky_40V_1A</value>
-      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <footprint>h_bridge_controller_3x2:DO-214AC_SMA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
@@ -215,7 +215,7 @@
     </comp>
     <comp ref="D8">
       <value>diode_schottky_40V_1A</value>
-      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <footprint>h_bridge_controller_3x2:DO-214AC_SMA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
@@ -227,7 +227,7 @@
     </comp>
     <comp ref="D9">
       <value>diode_schottky_40V_1A</value>
-      <footprint>h_bridge_controller_3x2:DO-214AC(SMA)</footprint>
+      <footprint>h_bridge_controller_3x2:DO-214AC_SMA</footprint>
       <fields>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
@@ -584,7 +584,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">diode_schottky_40V_1A</field>
-        <field name="Footprint">h_bridge_controller_3x2:DO-214AC(SMA)</field>
+        <field name="Footprint">h_bridge_controller_3x2:DO-214AC_SMA</field>
         <field name="Vendor">digikey</field>
         <field name="PartNumber">SS14CT-ND</field>
         <field name="Description">DIODE SCHOTTKY 40V 1A SMA</field>
